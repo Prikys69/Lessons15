@@ -1,0 +1,38 @@
+
+.gallery {
+	display: flex;	
+	background: #383e38;
+	padding: 5px;
+}
+
+.gallery.list {
+	flex-direction: column;
+}
+
+
+.gallery .box {
+	background: #fff;
+	margin: 5px;
+}
+
+.gallery.list .box {
+	display: flex;
+	flex-direction: row-reverse;
+	min-height: 200px;
+	min-width: 100px;
+}
+
+.gallery.trumbnails {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gallery.trumbnails .box {
+	width: 200px;
+}
+
+img {
+	width: 200px;
+}
+
